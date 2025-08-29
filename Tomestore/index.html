@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tome Store | Pre-Owned Books</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-title">
+      <img src="assets/logo.png" alt="Tome Store Logo">
+      <h1>Tome Store</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sell.html">Sell a Book</a>
+      <a href="bookshelf.html">My Bookshelf</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section class="search-filter">
+      <input type="text" id="search" placeholder="Search for books...">
+      <select id="category">
+        <option value="all">All Categories</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Self-help">Self-help</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Science">Science</option>
+      </select>
+    </section>
+
+    <h2>Available Books</h2>
+    <div id="book-list" class="book-grid"></div>
+
+    <h2>Recommended for You</h2>
+    <div id="recommendations" class="book-grid"></div>
+  </main>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
